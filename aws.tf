@@ -1,5 +1,5 @@
 module "vpc" {
-  source = "git::https://github.com/ask0n/demo_tf.git?ref=26ae24729e49180d91bdefd623a2cd8db60850dc//environments"
+  source = "git::https://github.com/ask0n/demo_tf.git?ref=462ac89d971aa5fae369eb53d1c0f2435f3ad56b//modules/aws/vpc"
   provider	 = "${var.provider}"
 
   name           = "${var.name}"
