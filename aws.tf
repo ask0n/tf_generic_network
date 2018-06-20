@@ -1,3 +1,5 @@
+#test under aws
+
 module "vpc" {
 #  source = "git::https://github.com/ask0n/demo_tf.git?ref=32ed151d5a40f80b4bbb2db44e56507f95d82cae//modules/aws/vpc"
   source = "git::https://github.com/ask0n/demo_tf.git?ref=32ed151d5a40f80b4bbb2db44e56507f95d82cae//${var.module_path}"
