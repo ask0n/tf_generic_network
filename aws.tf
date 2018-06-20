@@ -1,6 +1,6 @@
 module "vpc" {
-  source = "git::https://github.com/ask0n/demo_tf.git?ref=3682568ebdb847820f5776132423aa8a5157faea"
-  provider	 = "aws"
+  source = "git::https://github.com/ask0n/demo_tf.git?ref=26ae24729e49180d91bdefd623a2cd8db60850dc//environments"
+  provider	 = "${var.provider}"
 
   name           = "${var.name}"
   vpc_cidr       = "${var.vpc_cidr}"
@@ -11,4 +11,3 @@ module "vpc" {
   project        = "${var.project}"
   environment    = "${var.environment}"
 }
-
