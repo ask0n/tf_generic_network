@@ -1,5 +1,5 @@
 module "vpc" {
-  source = "git::https://github.com/ask0n/tf_generic_network.git?ref=f0d5780027068a0eb443ceb0839afaf051372225"
+  source = "git::https://github.com/ask0n/tf_generic_network.git?ref=3682568ebdb847820f5776132423aa8a5157faea"
   provider	 = "aws"
 
   name           = "${var.name}"
